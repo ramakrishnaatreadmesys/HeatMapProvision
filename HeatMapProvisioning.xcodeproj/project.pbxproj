@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E92D1D0199BDCB40040C438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E92D1CF199BDCB40040C438 /* Foundation.framework */; };
+		3E92D1D2199BDCB40040C438 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E92D1D1199BDCB40040C438 /* CoreGraphics.framework */; };
+		3E92D1D4199BDCB40040C438 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E92D1D3199BDCB40040C438 /* UIKit.framework */; };
+		3E92D1DA199BDCB40040C438 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E92D1D8199BDCB40040C438 /* InfoPlist.strings */; };
+		3E92D1DC199BDCB40040C438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92D1DB199BDCB40040C438 /* main.m */; };
+		3E92D1E0199BDCB40040C438 /* RMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92D1DF199BDCB40040C438 /* RMSAppDelegate.m */; };
+		3E92D1E3199BDCB40040C438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E92D1E1199BDCB40040C438 /* Main.storyboard */; };
+		3E92D1E6199BDCB40040C438 /* RMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92D1E5199BDCB40040C438 /* RMSViewController.m */; };
+		3E92D1E8199BDCB40040C438 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E92D1E7199BDCB40040C438 /* Images.xcassets */; };
+		3E92D1EF199BDCB40040C438 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E92D1EE199BDCB40040C438 /* XCTest.framework */; };
+		3E92D1F0199BDCB40040C438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E92D1CF199BDCB40040C438 /* Foundation.framework */; };
+		3E92D1F1199BDCB40040C438 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E92D1D3199BDCB40040C438 /* UIKit.framework */; };
+		3E92D1F9199BDCB40040C438 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E92D1F7199BDCB40040C438 /* InfoPlist.strings */; };
+		3E92D1FB199BDCB40040C438 /* HeatMapProvisioningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92D1FA199BDCB40040C438 /* HeatMapProvisioningTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E92D1F2199BDCB40040C438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E92D1C4199BDCB40040C438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E92D1CB199BDCB40040C438;
+			remoteInfo = HeatMapProvisioning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E92D1CC199BDCB40040C438 /* HeatMapProvisioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatMapProvisioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E92D1CF199BDCB40040C438 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E92D1D1199BDCB40040C438 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E92D1D3199BDCB40040C438 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E92D1D7199BDCB40040C438 /* HeatMapProvisioning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeatMapProvisioning-Info.plist"; sourceTree = "<group>"; };
+		3E92D1D9199BDCB40040C438 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E92D1DB199BDCB40040C438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E92D1DD199BDCB40040C438 /* HeatMapProvisioning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeatMapProvisioning-Prefix.pch"; sourceTree = "<group>"; };
+		3E92D1DE199BDCB40040C438 /* RMSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMSAppDelegate.h; sourceTree = "<group>"; };
+		3E92D1DF199BDCB40040C438 /* RMSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMSAppDelegate.m; sourceTree = "<group>"; };
+		3E92D1E2199BDCB40040C438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E92D1E4199BDCB40040C438 /* RMSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMSViewController.h; sourceTree = "<group>"; };
+		3E92D1E5199BDCB40040C438 /* RMSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMSViewController.m; sourceTree = "<group>"; };
+		3E92D1E7199BDCB40040C438 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E92D1ED199BDCB40040C438 /* HeatMapProvisioningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatMapProvisioningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E92D1EE199BDCB40040C438 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3E92D1F6199BDCB40040C438 /* HeatMapProvisioningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeatMapProvisioningTests-Info.plist"; sourceTree = "<group>"; };
+		3E92D1F8199BDCB40040C438 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E92D1FA199BDCB40040C438 /* HeatMapProvisioningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeatMapProvisioningTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E92D1C9199BDCB40040C438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E92D1D2199BDCB40040C438 /* CoreGraphics.framework in Frameworks */,
+				3E92D1D4199BDCB40040C438 /* UIKit.framework in Frameworks */,
+				3E92D1D0199BDCB40040C438 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E92D1EA199BDCB40040C438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E92D1EF199BDCB40040C438 /* XCTest.framework in Frameworks */,
+				3E92D1F1199BDCB40040C438 /* UIKit.framework in Frameworks */,
+				3E92D1F0199BDCB40040C438 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E92D1C3199BDCB40040C438 = {
+			isa = PBXGroup;
+			children = (
+				3E92D1D5199BDCB40040C438 /* HeatMapProvisioning */,
+				3E92D1F4199BDCB40040C438 /* HeatMapProvisioningTests */,
+				3E92D1CE199BDCB40040C438 /* Frameworks */,
+				3E92D1CD199BDCB40040C438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E92D1CD199BDCB40040C438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E92D1CC199BDCB40040C438 /* HeatMapProvisioning.app */,
+				3E92D1ED199BDCB40040C438 /* HeatMapProvisioningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E92D1CE199BDCB40040C438 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E92D1CF199BDCB40040C438 /* Foundation.framework */,
+				3E92D1D1199BDCB40040C438 /* CoreGraphics.framework */,
+				3E92D1D3199BDCB40040C438 /* UIKit.framework */,
+				3E92D1EE199BDCB40040C438 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E92D1D5199BDCB40040C438 /* HeatMapProvisioning */ = {
+			isa = PBXGroup;
+			children = (
+				3E92D1DE199BDCB40040C438 /* RMSAppDelegate.h */,
+				3E92D1DF199BDCB40040C438 /* RMSAppDelegate.m */,
+				3E92D1E1199BDCB40040C438 /* Main.storyboard */,
+				3E92D1E4199BDCB40040C438 /* RMSViewController.h */,
+				3E92D1E5199BDCB40040C438 /* RMSViewController.m */,
+				3E92D1E7199BDCB40040C438 /* Images.xcassets */,
+				3E92D1D6199BDCB40040C438 /* Supporting Files */,
+			);
+			path = HeatMapProvisioning;
+			sourceTree = "<group>";
+		};
+		3E92D1D6199BDCB40040C438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E92D1D7199BDCB40040C438 /* HeatMapProvisioning-Info.plist */,
+				3E92D1D8199BDCB40040C438 /* InfoPlist.strings */,
+				3E92D1DB199BDCB40040C438 /* main.m */,
+				3E92D1DD199BDCB40040C438 /* HeatMapProvisioning-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E92D1F4199BDCB40040C438 /* HeatMapProvisioningTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E92D1FA199BDCB40040C438 /* HeatMapProvisioningTests.m */,
+				3E92D1F5199BDCB40040C438 /* Supporting Files */,
+			);
+			path = HeatMapProvisioningTests;
+			sourceTree = "<group>";
+		};
+		3E92D1F5199BDCB40040C438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E92D1F6199BDCB40040C438 /* HeatMapProvisioningTests-Info.plist */,
+				3E92D1F7199BDCB40040C438 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E92D1CB199BDCB40040C438 /* HeatMapProvisioning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E92D1FE199BDCB40040C438 /* Build configuration list for PBXNativeTarget "HeatMapProvisioning" */;
+			buildPhases = (
+				3E92D1C8199BDCB40040C438 /* Sources */,
+				3E92D1C9199BDCB40040C438 /* Frameworks */,
+				3E92D1CA199BDCB40040C438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeatMapProvisioning;
+			productName = HeatMapProvisioning;
+			productReference = 3E92D1CC199BDCB40040C438 /* HeatMapProvisioning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E92D1EC199BDCB40040C438 /* HeatMapProvisioningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E92D201199BDCB40040C438 /* Build configuration list for PBXNativeTarget "HeatMapProvisioningTests" */;
+			buildPhases = (
+				3E92D1E9199BDCB40040C438 /* Sources */,
+				3E92D1EA199BDCB40040C438 /* Frameworks */,
+				3E92D1EB199BDCB40040C438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E92D1F3199BDCB40040C438 /* PBXTargetDependency */,
+			);
+			name = HeatMapProvisioningTests;
+			productName = HeatMapProvisioningTests;
+			productReference = 3E92D1ED199BDCB40040C438 /* HeatMapProvisioningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E92D1C4199BDCB40040C438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RMS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ReadMeSys;
+				TargetAttributes = {
+					3E92D1EC199BDCB40040C438 = {
+						TestTargetID = 3E92D1CB199BDCB40040C438;
+					};
+				};
+			};
+			buildConfigurationList = 3E92D1C7199BDCB40040C438 /* Build configuration list for PBXProject "HeatMapProvisioning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E92D1C3199BDCB40040C438;
+			productRefGroup = 3E92D1CD199BDCB40040C438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E92D1CB199BDCB40040C438 /* HeatMapProvisioning */,
+				3E92D1EC199BDCB40040C438 /* HeatMapProvisioningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E92D1CA199BDCB40040C438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E92D1E8199BDCB40040C438 /* Images.xcassets in Resources */,
+				3E92D1DA199BDCB40040C438 /* InfoPlist.strings in Resources */,
+				3E92D1E3199BDCB40040C438 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E92D1EB199BDCB40040C438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E92D1F9199BDCB40040C438 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E92D1C8199BDCB40040C438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E92D1DC199BDCB40040C438 /* main.m in Sources */,
+				3E92D1E0199BDCB40040C438 /* RMSAppDelegate.m in Sources */,
+				3E92D1E6199BDCB40040C438 /* RMSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E92D1E9199BDCB40040C438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E92D1FB199BDCB40040C438 /* HeatMapProvisioningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E92D1F3199BDCB40040C438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E92D1CB199BDCB40040C438 /* HeatMapProvisioning */;
+			targetProxy = 3E92D1F2199BDCB40040C438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E92D1D8199BDCB40040C438 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E92D1D9199BDCB40040C438 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E92D1E1199BDCB40040C438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E92D1E2199BDCB40040C438 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E92D1F7199BDCB40040C438 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E92D1F8199BDCB40040C438 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E92D1FC199BDCB40040C438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3E92D1FD199BDCB40040C438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E92D1FF199BDCB40040C438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeatMapProvisioning/HeatMapProvisioning-Prefix.pch";
+				INFOPLIST_FILE = "HeatMapProvisioning/HeatMapProvisioning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E92D200199BDCB40040C438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeatMapProvisioning/HeatMapProvisioning-Prefix.pch";
+				INFOPLIST_FILE = "HeatMapProvisioning/HeatMapProvisioning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E92D202199BDCB40040C438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeatMapProvisioning.app/HeatMapProvisioning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeatMapProvisioning/HeatMapProvisioning-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeatMapProvisioningTests/HeatMapProvisioningTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3E92D203199BDCB40040C438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeatMapProvisioning.app/HeatMapProvisioning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeatMapProvisioning/HeatMapProvisioning-Prefix.pch";
+				INFOPLIST_FILE = "HeatMapProvisioningTests/HeatMapProvisioningTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E92D1C7199BDCB40040C438 /* Build configuration list for PBXProject "HeatMapProvisioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E92D1FC199BDCB40040C438 /* Debug */,
+				3E92D1FD199BDCB40040C438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E92D1FE199BDCB40040C438 /* Build configuration list for PBXNativeTarget "HeatMapProvisioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E92D1FF199BDCB40040C438 /* Debug */,
+				3E92D200199BDCB40040C438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E92D201199BDCB40040C438 /* Build configuration list for PBXNativeTarget "HeatMapProvisioningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E92D202199BDCB40040C438 /* Debug */,
+				3E92D203199BDCB40040C438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E92D1C4199BDCB40040C438 /* Project object */;
+}
