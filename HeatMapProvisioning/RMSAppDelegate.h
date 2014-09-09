@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RMSDBManager.h"
 @interface RMSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property RMSDBManager *dbManager;
+@property (nonatomic, retain) NSString *OrgId;
++ (void) Generalstyle;
 @end

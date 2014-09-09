@@ -7,15 +7,36 @@
 //
 
 #import "RMSAppDelegate.h"
-
+#import "RMSStoresManagementTableViewController.H"
+#import "RMSStoresInfo.h"
+#import "RMSLogin.h"
+#import "RMSDBManager.h"
 @implementation RMSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[self class] Generalstyle];
+    self.dbManager=[[RMSDBManager alloc]init];
+    [self.dbManager createDatabase];
+    self.OrgId=@"1";
+    RMSLogin *rootController = [[RMSLogin alloc] initWithNibName:@"RMSLogin" bundle:nil];
+    
+    UINavigationController *navigationController = [[UINavigationController       alloc]initWithRootViewController:rootController];
+   
+    self.window.rootViewController = navigationController;
     return YES;
 }
-							
+
++ (void)Generalstyle {
+    
+        
+    // load the background image safewayLogo.gif
+  //  UIImage *imageNavBar = [UIImage imageNamed:@"safewayLogo.gif"];
+    
+    // set the image as stretchable and set into navbar globally
+//    imageNavBar = [imageNavBar stretchableImageWithLeftCapWidth:0 topCapHeight:0];
+ //   [[UINavigationBar appearance] setBackgroundImage:imageNavBar forBarMetrics:UIBarMetricsDefault];
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -42,5 +63,6 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
 
 @end

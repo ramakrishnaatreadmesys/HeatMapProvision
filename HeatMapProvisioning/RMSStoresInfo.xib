@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RMSStoresInfo">
+            <connections>
+                <outlet property="GatewaysSourceView" destination="NIt-Tl-b4p" id="Ctn-xB-9mT"/>
+                <outlet property="gatewaysView" destination="cdj-Dn-ekY" id="NZs-qZ-Obb"/>
+                <outlet property="lockBtn" destination="MpP-J5-uKK" id="ikI-gz-6IV"/>
+                <outlet property="scroolView" destination="Znu-hl-Fmv" id="XBX-cu-kEW"/>
+                <outlet property="sensorsView" destination="SZ1-k7-oY4" id="VDO-Af-HJ5"/>
+                <outlet property="storeMapImageView" destination="WbP-x1-qI2" id="8Sb-2F-DeY"/>
+                <outlet property="storesTableView" destination="TZu-sM-ljh" id="fK6-XA-jyk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="TZu-sM-ljh">
+                    <rect key="frame" x="2" y="115" width="178" height="573"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="66c-FE-s0V"/>
+                        <outlet property="delegate" destination="-1" id="2SJ-G3-4WR"/>
+                    </connections>
+                </tableView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Znu-hl-Fmv">
+                    <rect key="frame" x="188" y="110" width="704" height="573"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="WbP-x1-qI2">
+                            <rect key="frame" x="6" y="13" width="689" height="549"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                    </subviews>
+                </scrollView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YqI-lW-pZF">
+                    <rect key="frame" x="10" y="20" width="124" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Stores in list"/>
+                    <connections>
+                        <action selector="showStorsInList:" destination="-1" eventType="touchUpInside" id="nDx-WU-rgc"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="NIt-Tl-b4p">
+                    <rect key="frame" x="2" y="69" width="826" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="SZ1-k7-oY4">
+                            <rect key="frame" x="457" y="0.0" width="206" height="42"/>
+                            <subviews>
+                                <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSensor.png" id="ksm-z9-Jir">
+                                    <rect key="frame" x="4" y="3" width="35" height="35"/>
+                                </imageView>
+                                <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSensor.png" id="9jC-hP-Jjc">
+                                    <rect key="frame" x="44" y="3" width="35" height="35"/>
+                                </imageView>
+                                <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSensor.png" id="zRL-hx-RFK">
+                                    <rect key="frame" x="84" y="3" width="35" height="35"/>
+                                </imageView>
+                                <imageView tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSensor.png" id="Xrg-Gi-s88">
+                                    <rect key="frame" x="124" y="3" width="35" height="35"/>
+                                </imageView>
+                                <imageView tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSensor.png" id="QIg-MW-pRY">
+                                    <rect key="frame" x="164" y="3" width="35" height="35"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="cdj-Dn-ekY">
+                            <rect key="frame" x="197" y="0.0" width="199" height="42"/>
+                            <subviews>
+                                <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgGateway.png" id="sg4-Pq-N0D">
+                                    <rect key="frame" x="2" y="2" width="35" height="35"/>
+                                </imageView>
+                                <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgGateway.png" id="eSV-C8-bo0">
+                                    <rect key="frame" x="41" y="2" width="35" height="35"/>
+                                </imageView>
+                                <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgGateway.png" id="Rrx-GZ-LXs">
+                                    <rect key="frame" x="78" y="2" width="35" height="35"/>
+                                </imageView>
+                                <imageView tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgGateway.png" id="Vbu-LV-rdr">
+                                    <rect key="frame" x="117" y="2" width="35" height="35"/>
+                                </imageView>
+                                <imageView tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgGateway.png" id="TGp-qG-ci6">
+                                    <rect key="frame" x="155" y="2" width="35" height="35"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gateways" lineBreakMode="characterWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KjQ-bd-dtb">
+                            <rect key="frame" x="127" y="10" width="65" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensors" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="upn-dE-tN4">
+                            <rect key="frame" x="404" y="10" width="53" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="l61-19-npO">
+                            <rect key="frame" x="79" y="8" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="addStore:" destination="-1" eventType="touchUpInside" id="uza-AR-59d"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Store?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YyH-JR-CH9">
+                            <rect key="frame" x="14" y="8" width="68" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MpP-J5-uKK">
+                            <rect key="frame" x="716" y="9" width="71" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="Lock">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="LockandUnlock:" destination="-1" eventType="touchUpInside" id="rpw-Pv-CaC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fzI-WS-KIV">
+                            <rect key="frame" x="673" y="7" width="42" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="Scan">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="Scan:" destination="-1" eventType="touchUpInside" id="SIG-eG-y7a"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="imgGateway.png" width="32" height="32"/>
+        <image name="imgSensor.png" width="32" height="32"/>
+    </resources>
+</document>
